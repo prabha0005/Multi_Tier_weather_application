@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+    <div class="container">
+        <h2 id="location">Enter a city name</h2>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Weather Info -->
+        <img id="weather-icon" class="weather-icon" src="" alt="Weather Icon">
+        <p class="temp" id="temperature"></p>
+        <p class="condition" id="condition"></p>
+
+        <div class="details">
+            <div>
+                <strong>Humidity</strong>
+                <p id="humidity"></p>
+            </div>
+            <div>
+                <strong>Wind</strong>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Weather App. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
